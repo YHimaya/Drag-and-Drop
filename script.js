@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag and Drop</title>
-    <link href="style.css" rel="stylesheet">
-    
-</head>
-<body>
-    
-    <div class="container">
-        <div id="left">
-            <div class="list" draggable="true"><img src="s.png" alt="">List Item 1</div>
-            <div class="list" draggable="true"><img src="s.png" alt="">List Item 2</div>
-            <div class="list" draggable="true"><img src="s.png" alt="">List Item 3</div>
-            <div class="list" draggable="true"><img src="s.png" alt="">List Item 4</div>
-        </div>
-        <div id="right"></div>
-    </div>
-
-    <script>
-        let lists = document.getElementsByClassName("list");
+let lists = document.getElementsByClassName("list");
         let rightbox = document.getElementById("right");
         let leftbox = document.getElementById("left");
 
@@ -49,7 +27,3 @@
             })
             
         }
-    </script>
-
-</body>
-</html>
